@@ -1,0 +1,3 @@
+﻿En el archivo index.html sumé el SEO con las siguientes características:
+* Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Tienda Plumex es un local de venta de articulos de limpieza y más!"
+* Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "Tienda, Limpieza, Hogar, Perfumeria"

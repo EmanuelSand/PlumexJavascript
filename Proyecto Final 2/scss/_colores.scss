@@ -1,0 +1,34 @@
+$azul:blue;
+$amarillo:yellow;
+$negro:black;
+$blanco:white;
+$violeta:violet;
+
+$color: verde;
+
+.Contacto {
+    @if ($color == azul){
+        color: blue;
+    } @else if ($color == verde){
+        color: green;
+    } @else {
+        color: red;
+    }
+}
+
+$estilos:(
+    color:grey,
+    centro: center
+);
+.FooterContainer {
+    display: block;
+    background-color: #f7f7f7;
+    margin: 100px; }
+  
+  .wrapper-container {
+    background-color: #f7f7f7;
+    padding: 42px 30px 25px 42px;
+    margin: 0;
+    padding: 0 15px; }
+  
+

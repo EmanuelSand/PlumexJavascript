@@ -1,0 +1,151 @@
+@import "tamanios";
+@import "colores";
+$padding:20px;
+$margin:30px;
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-grid{
+    display: grid;
+    grid-template-rows: auto ;
+}
+
+.Fondo-Header{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.navFlex {
+    display: flex;
+    padding-top: 200px;
+    padding-left: 200px;
+    justify-content: space-evenly;
+    color: black;
+  }
+.navFlex li{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    list-style: none;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.FooterContainer{
+    display: block;
+    background-color: #f7f7f7;
+    margin: 100px;
+}
+.wrapper-container{
+    background-color: #f7f7f7;
+    padding: 42px 30px 25px 42px;
+    margin: 0;
+    padding: 0 15px;
+
+}
+.section-links{
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+    margin: 0px;
+    padding-top: 20px;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.section-Nosotros{
+    flex: 1 1 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.section-ayuda{
+    flex: 1 1 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.section-dondeEstamos{
+    flex: 1 1 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.sub-footer{
+    padding-top: 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.Titulo{
+    text-align: center;
+    color:aquamarine;
+    text-shadow: -1px 0 black, 0 1px black,
+	  1px 0 black, 0 -1px black
+}
+.Articulos{
+    width: fit-content;
+    position: relative;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+}
+.Container{
+    justify-content: center;
+    margin: 30px;
+    display: flex;
+}
+.Container div{
+    padding: 10px;
+    margin: 10px;
+    
+}
+.Boton{
+    text-align: right;
+}
+.Descuento{
+    margin-left: 150px;
+    position: absolute;
+    z-index: 1;
+}
+.ImagenDemos{
+    justify-content: center;
+}
+.Info{
+    text-align: center;
+    padding-top: 10px;
+}
+.contenedor-info-fluid{
+    text-align: center;
+}
+.Envios{
+    border: 1px solid;
+    padding: 5px;
+    margin: 30px 30px 30px 100px;
+    max-width: 430px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 2px rgba(0, 0, 0, 0.2);
+}
+.EnviosText{
+    padding: 10px;
+    max-width: 450px;
+}
+.Retiros{
+    border: 1px solid;
+    padding: 5px;
+    margin: 30px 30px 30px 100px;
+    max-width: 430px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 2px rgba(0, 0, 0, 0.2);
+
+}
+.InfoEnvioYRetiro{
+    display: flex;
+    justify-content: center;
+}
